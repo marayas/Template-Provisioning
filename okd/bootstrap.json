@@ -63,7 +63,7 @@
         ],
         "boot_command": [        
           "<tab>",
-          " ip=10.10.31.46::10.10.28.1:255.255.252.0:::none:10.10.8.132 coreos.inst.install_dev=/dev/sda coreos.inst.image_url=http://10.10.31.47:8080/okd4/fcos.raw.xz coreos.inst.ignition_url=http://10.10.31.47:8080/okd4/bootstrap.ign",
+          " ip=192.168.86.2::192.168.86.1:255.255.252.0:::none:192.168.86.3 coreos.inst.install_dev=/dev/sda coreos.inst.image_url=http://192.168.86.4:8080/okd4/fcos.raw.xz coreos.inst.ignition_url=http://192.168.86.40:8080/okd4/bootstrap.ign",
           "<enter>",
           "<wait1m>"
           ]
